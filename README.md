@@ -4,7 +4,18 @@ This object returns random data from a database, based on certain parameters tha
 # How to use?
  You must set up a database in config/ini/config.php.ini
 
- #Example
- $foo = new IdRand(tableName, ColName);
- $foo = idRand();
- echo $foo;
+ ### Example
+ ```bash
+$foo = new IdRand(tableName, ColName);
+```
+ ```bash
+$foo = idRand();
+```
+```bash
+echo $foo;
+```
+```bash
+result $randomString
+```
+#### This is my first object worked on in PHP, I welcome suggestions.
+   
